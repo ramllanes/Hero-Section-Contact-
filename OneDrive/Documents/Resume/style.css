@@ -1,0 +1,229 @@
+body {
+
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #081B29;
+     height: 100vh;
+}
+
+
+.Header {
+
+    margin-top: 10px;   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+
+.Logo {
+
+    font-size: 1px;
+}
+
+
+.Header a {
+
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+.Name {
+
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 7%;
+}
+
+
+.FullName {
+
+    color: white;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.text {
+
+    text-transform: uppercase;
+    color: rgb(79, 195, 247);
+    font-family: "Poppins", sans-serif;
+}
+
+
+.description {
+
+    display: inline-block;
+    position: absolute;
+    top: 42%;
+    left: 7%;
+    max-width: 600px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
+
+
+.description p {
+
+    font-family: "Inter", sans-serif;
+}
+
+
+.buttons {
+
+    position: absolute;
+    top: 65%;
+    left: 7%;
+}
+
+
+.Hire-ME {
+
+    width: 100px;
+    height: 40px;
+    background-color: rgb(79, 195, 247); ;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    border: none;
+    border-radius: 7px;
+    transition: opacity 1s;
+}
+
+
+.Hire-ME:hover {
+
+    opacity: 0.7;
+}
+
+
+.Hire-ME:active {
+
+    opacity: 0.3;
+}
+
+
+.Lets-talk {
+
+    width: 100px;
+    height: 40px;
+    border-color: rgb(79, 195, 247); 
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 7px;
+    transition: opacity 1s;
+}
+
+
+.Lets-talk:hover {
+
+    opacity: 0.7;
+}
+
+
+.Lets-talk:active {
+
+    opacity: 0.3;
+}
+
+
+.Feature {
+
+    height: 520px;
+    width: 550px;
+    position: relative;
+    left: 60%;
+    top: 0%;
+    bottom: 0%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 25px;
+}
+
+
+.Feature img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+
+.information {
+
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+
+.information h3 {
+
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    line-height: 0.3;
+    color: #fff;
+}
+
+
+.information p {
+
+    color: #fff;
+    line-height: 0.3;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.location {
+
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+.pp {
+
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+
+.base {
+    
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+}
+
+
+.icons {
+
+    position: absolute;
+    top: 84%;
+    left: 53%;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icons img {
+
+    width: 50px;
+}
