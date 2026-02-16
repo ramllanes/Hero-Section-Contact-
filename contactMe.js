@@ -83,14 +83,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function viewSubmitted() {
-    const submitBody = document.getElementById('submissions'); // tbody
+    const submitBody = document.getElementById('submissions'); 
     const data = JSON.parse(localStorage.getItem('contact_submit')) || [];
     const empty = document.getElementById('empty-state');
 
-    // Show empty state if no submissions
      if (!submitBody || data.length === 0) return;
 
-    // Fill table body
+
    submitBody.innerHTML = data.reverse().map(entry => `
         <tr>
             <td>${entry.name || 'N/A'}</td>

@@ -1,3 +1,9 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
 .Contact {
 
     padding-top: 5rem;
@@ -125,3 +131,5 @@
     color: #fff;
     border-radius: 6px;
 }
+
+
