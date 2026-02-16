@@ -1,3 +1,9 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
 .Contact {
 
     padding-top: 5rem;
@@ -124,4 +130,73 @@
     background-color: rgb(79, 195, 247);
     color: #fff;
     border-radius: 6px;
+}
+
+
+.Container {
+
+    min-height: 100vh;
+}
+
+
+.table-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.table-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.styled-table thead {
+    background: #2563eb; /* blue */
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.styled-table th {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #eeeeee;
+    transition: 0.2s ease-in-out;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f3f4f6;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+
+.table-wrapper {
+    overflow-x: auto;
 }
