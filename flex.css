@@ -1,0 +1,148 @@
+.Hero-Container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 800px;
+}
+
+
+.Content-Description {
+
+    width: 700px ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fName {
+
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+}
+
+
+.FullName {
+
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1;
+    padding-right: 50px;
+}
+
+
+.highlight {
+
+    color: rgb(79, 195, 247);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.description {
+
+    height: 350px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 15px;
+    flex-direction: column;
+}
+
+
+.description p {
+
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.Hire-ME {
+
+    background-color: rgb(79, 195, 247); ;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+    border: none;
+     cursor: pointer;
+}
+
+
+.Lets-talk {
+
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-color: rgb(79, 195, 247);;
+    cursor: pointer;
+}
+
+
+.Feature {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-Division {
+
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 25px;
+}
+
+
+.image-Division img {
+
+    width: 100%;
+    height: 100%;
+    filter: grayscale(20%);
+}
+
+
+
+@media (max-width: 768px) {
+    .Hero-Container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Content-Description {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .image-Division {
+        width: 100%;
+        height: auto;
+    }
+}
