@@ -7,7 +7,6 @@
     display: flex;
     justify-content: start;
     flex-direction: row;
-    padding-bottom: 10px;
 }
 
 
@@ -210,6 +209,7 @@ form {
     color: #f0f0f0;
     font-size: 3rem;
     line-height: 0.5;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -271,7 +271,7 @@ form {
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     height: 80px;
 }
 
